@@ -1,1 +1,82 @@
-import{j as e}from"./index-zOd4A4z2.js";import{e as s,U as i,b as a,T as t}from"./ui-C7T3uEdo.js";import"./vendor-DTT5Tm4R.js";const l=()=>e.jsx("section",{id:"chi-siamo",className:"py-20 bg-white",children:e.jsxs("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",children:[e.jsxs("div",{className:"text-center mb-16",children:[e.jsx("span",{className:"text-blue-600 font-semibold text-sm tracking-wider uppercase",children:"Chi Siamo"}),e.jsx("h2",{className:"text-3xl font-bold text-gray-900 mt-2 mb-4",children:"La Nostra Storia"}),e.jsx("p",{className:"text-xl text-gray-600 max-w-2xl mx-auto",children:"Da 10 anni al servizio dei clienti con professionalità e dedizione"})]}),e.jsxs("div",{className:"grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16",children:[e.jsxs("div",{className:"relative",children:[e.jsx("div",{className:"aspect-w-4 aspect-h-3",children:e.jsx("img",{src:"https://static.wixstatic.com/media/76751ad539344a41a9950d2ee585e350.jpg/v1/fill/w_640,h_396,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/76751ad539344a41a9950d2ee585e350.jpg",alt:"Tecnico al lavoro",className:"object-cover rounded-xl shadow-lg"})}),e.jsxs("div",{className:"absolute -bottom-6 -right-6 bg-blue-600 text-white p-4 rounded-lg shadow-lg",children:[e.jsx("p",{className:"text-3xl font-bold",children:"10+"}),e.jsx("p",{className:"text-sm",children:"Anni di Esperienza"})]})]}),e.jsxs("div",{children:[e.jsx("h3",{className:"text-2xl font-bold text-gray-900 mb-6",children:"La Tua Scelta di Fiducia per l'Assistenza Elettrodomestici a Brescia"}),e.jsx("p",{className:"text-gray-600 mb-8",children:"Dal 2014, ElectroHome è sinonimo di affidabilità e professionalità nel settore delle riparazioni di elettrodomestici a Brescia e provincia. La nostra esperienza decennale ci ha permesso di sviluppare una profonda conoscenza di tutti i principali marchi e modelli di elettrodomestici."}),e.jsxs("div",{className:"grid grid-cols-2 gap-6",children:[e.jsxs("div",{className:"flex items-start gap-3",children:[e.jsx(s,{className:"text-blue-600 shrink-0"}),e.jsxs("div",{children:[e.jsx("h4",{className:"font-semibold",children:"Certificati"}),e.jsx("p",{className:"text-sm text-gray-600",children:"Tecnici qualificati e autorizzati"})]})]}),e.jsxs("div",{className:"flex items-start gap-3",children:[e.jsx(i,{className:"text-blue-600 shrink-0"}),e.jsxs("div",{children:[e.jsx("h4",{className:"font-semibold",children:"Clienti Soddisfatti"}),e.jsx("p",{className:"text-sm text-gray-600",children:"Migliaia di riparazioni eseguite"})]})]}),e.jsxs("div",{className:"flex items-start gap-3",children:[e.jsx(a,{className:"text-blue-600 shrink-0"}),e.jsxs("div",{children:[e.jsx("h4",{className:"font-semibold",children:"Ricambi Originali"}),e.jsx("p",{className:"text-sm text-gray-600",children:"Garanzia sui pezzi sostituiti"})]})]}),e.jsxs("div",{className:"flex items-start gap-3",children:[e.jsx(t,{className:"text-blue-600 shrink-0"}),e.jsxs("div",{children:[e.jsx("h4",{className:"font-semibold",children:"Assistenza Rapida"}),e.jsx("p",{className:"text-sm text-gray-600",children:"Interventi entro 24/48 ore"})]})]})]})]})]})]})});export{l as default};
+import { jsx } from '@emotion/react';
+import { e as s, U as i, b as a, T as t } from './ui-C7T3uEdo.js';
+import './vendor-DTT5Tm4R.js';
+
+const ChiSiamoSection = () => {
+  const heading = 'Chi Siamo';
+  const subheading = 'La Nostra Storia';
+  const text = 'Da 10 anni al servizio dei clienti con professionalità e dedizione';
+
+  return (
+    <section id="chi-siamo" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <span className="text-blue-600 font-semibold text-sm tracking-wider uppercase">
+            {heading}
+          </span>
+          <h2 className="text-3xl font-bold text-gray-900 mt-2 mb-4">
+            {subheading}
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            {text}
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="relative">
+            <div className="aspect-w-4 aspect-h-3">
+              <img
+                src="https://static.wixstatic.com/media/76751ad539344a41a9950d2ee585e350.jpg/v1/fill/w_640,h_396,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/76751ad539344a41a9950d2ee585e350.jpg"
+                alt="Tecnico al lavoro"
+                className="object-cover rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-4 rounded-lg shadow-lg">
+              <p className="text-3xl font-bold">10+</p>
+              <p className="text-sm">Anni di Esperienza</p>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              La Tua Scelta di Fiducia per l'Assistenza Elettrodomestici a Brescia
+            </h3>
+            <p className="text-gray-600 mb-8">
+              Dal 2014, ElectroHome è sinonimo di affidabilità e professionalità nel settore delle riparazioni di elettrodomestici a Brescia e provincia. La nostra esperienza decennale ci ha permesso di sviluppare una profonda conoscenza di tutti i principali marchi e modelli di elettrodomestici.
+            </p>
+            <div className="grid grid-cols-2 gap-6">
+              <div className="flex items-start gap-3">
+                <s className="text-blue-600 shrink-0" />
+                <div>
+                  <h4 className="font-semibold">Certificati</h4>
+                  <p className="text-sm text-gray-600">Tecnici qualificati e autorizzati</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <i className="text-blue-600 shrink-0" />
+                <div>
+                  <h4 className="font-semibold">Clienti Soddisfatti</h4>
+                  <p className="text-sm text-gray-600">Migliaia di riparazioni eseguite</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <a className="text-blue-600 shrink-0" />
+                  <div>
+                  <h4 className="font-semibold">Ricambi Originali</h4>
+                  <p className="text-sm text-gray-600">Garanzia sui pezzi sostituiti</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <t className="text-blue-600 shrink-0" />
+                <div>
+                  <h4 className="font-semibold">Assistenza Rapida</h4>
+                  <p className="text-sm text-gray-600">Interventi entro 24/48 ore</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ChiSiamoSection;
