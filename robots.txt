@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://electro-home.it/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow search engines to crawl city-specific pages
+Allow: /modena
+Allow: /brescia
+Allow: /firenze
+
+# Allow important assets
+Allow: /images/
+Allow: /assets/
+Allow: /favicon.svg
+Allow: /logo.png
+Allow: /manifest.json
+
+# Disallow private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
