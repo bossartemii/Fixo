@@ -1,0 +1,15 @@
+[build]
+  # La directory base del progetto: sostituisci se il codice non è nella root
+  base = "" 
+  # Directory dove Netlify pubblicherà i file: modifica se necessario
+  publish = "dist" 
+  # Comando per generare i file di build
+  command = "npm run build"
+
+[dev]
+  # Configura il framework, se applicabile
+  framework = "vite"
+
+[functions]
+  # Imposta la directory per le funzioni serverless, se presenti
+  directory = "functions"
