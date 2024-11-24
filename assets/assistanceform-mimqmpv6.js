@@ -203,3 +203,91 @@ const o = ({ isOpen: o, onClose: c, region: d }) => {
                           }),
                         ],
                       }),
+className:
+                                  "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+                                required: !0,
+                                children: [
+                                  e.jsx("option", {
+                                    value: "",
+                                    children: "Seleziona Comune",
+                                  }),
+                                  e.jsx("option", {
+                                    value: "modena",
+                                    children: "Modena",
+                                  }),
+                                  e.jsx("option", {
+                                    value: "brescia",
+                                    children: "Brescia",
+                                  }),
+                                  e.jsx("option", {
+                                    value: "firenze",
+                                    children: "Firenze",
+                                  }),
+                                  e.jsx("option", {
+                                    value: "altro",
+                                    children: "Altro",
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      e.jsxs("div", {
+                        className: "mb-4",
+                        children: [
+                          e.jsx("label", {
+                            className:
+                              "block text-sm font-medium text-gray-700 mb-1",
+                            children: "Problema",
+                          }),
+                          e.jsx("textarea", {
+                            value: I,
+                            onChange: (e) => k(e.target.value),
+                            className:
+                              "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+                            placeholder: "Descrivi il problema",
+                          }),
+                        ],
+                      }),
+                      e.jsxs("div", {
+                        className: "mb-4",
+                        children: [
+                          e.jsx("label", {
+                            className:
+                              "block text-sm font-medium text-gray-700 mb-1",
+                            children: "Dispositivo (opzionale)",
+                          }),
+                          e.jsx("input", {
+                            type: "text",
+                            value: S,
+                            onChange: (e) => z(e.target.value),
+                            className:
+                              "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+                            placeholder: "Se applicabile",
+                          }),
+                        ],
+                      }),
+                      e.jsxs("div", {
+                        className: "text-center",
+                        children: [
+                          e.jsx("button", {
+                            type: "submit",
+                            disabled: $,
+                            className:
+                              "w-full bg-blue-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition",
+                            children: $ ? "Invio in corso..." : "Invia Richiesta",
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        })
+    : null;
+};
+
+export default o;
